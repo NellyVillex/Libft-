@@ -1,4 +1,4 @@
-*This project has been created as part of 42 curriculum by dnelly-b
+*This project has been created as part of 42 curriculum by dnelly-b*
 
 ## ABOUT
 This text outlines the requirements for a programming project, which involves recreating a set of functions from the standard C library (libc) with the same prototypes and behaviors as the originals. The only difference is that these functions will have names starting with the 'ft_' prefix. Here's a summary of the key points:
