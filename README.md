@@ -1,19 +1,17 @@
 *This project has been created as part of 42 curriculum by dnelly-b*
 
-## ABOUT
+## DESCRIPTION
 This text outlines the requirements for a programming project, which involves recreating a set of functions from the standard C library (libc) with the same prototypes and behaviors as the originals. The only difference is that these functions will have names starting with the 'ft_' prefix. Here's a summary of the key points:
 
 ## Mandatory Part:
 
 Recreate several standard libc functions with 'ft_' prefixes. Functions to be implemented include those for character manipulation (e.g., toupper, isdigit), string manipulation (e.g., strlen, strncmp), memory manipulation (e.g., memset, memcpy), and more. Ensure the implementations adhere to the behavior described in their respective man pages. Use malloc for implementing functions that require dynamic memory allocation (e.g., calloc, strdup). Create and declare a custom structure called t_list for linked lists with members content (data in the node) and next (pointer to the next node or NULL). Implement a Makefile rule for compiling and creating a library file (libft.a) containing these functions.
 
-## Bonus Part:
-
-Develop additional functions to manipulate linked lists using the t_list structure. Add a make bonus rule to include the bonus functions in the libft.a library.
+Functions to manipulate linked lists using the t_list structure. Add a make bonus rule to include the bonus functions in the libft.a library.
 
 In summary, this project involves recreating standard libc functions with 'ft_' prefixes, ensuring their functionality matches the originals. Additionally, there is an optional bonus part that includes creating functions to manipulate linked lists. The goal is to create a custom library (libft.a) with these functions for later use.
 
-## HOW TO USE
+## INSTRUCTIONS
 
 1º - Clone the repository
 ```c
@@ -100,3 +98,8 @@ Compile with:
 ```bash
 cc main.c libft.a
 ```
+## RESOURCES
+
+- Libft Your very first own library - Document.
+- Unix Man page - A Unix man page is a technical document that describes the usage, options, and behavior of commands, functions, and system components in Unix-based operating systems.
+- https://publish.obsidian.md/henriquesilvadev/Libft/libft - The aim of this project is to help you create, in C, a library of common functions that you can reuse in your future projects.
