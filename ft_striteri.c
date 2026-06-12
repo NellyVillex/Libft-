@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/03 11:11:57 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/06/03 12:06:59 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:37:41 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,23 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// void	upper(unsigned int i, char *c)
-// {
-// 	(void)i;
-// 	if (*c >= 'a' && *c <= 'z')
-// 		*c -= 32;
-// }
-
-// int	main(void)
-// {
-// 	char	str[] = "hello world";
-
-// 	printf("Antes : %s\n", str);
-
-// 	ft_striteri(str, upper);
-
-// 	printf("Depois: %s\n", str);
-
-// 	return (0);
-// }

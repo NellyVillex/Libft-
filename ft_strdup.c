@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 16:11:27 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/29 11:14:35 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:37:31 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,23 +31,3 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	*copy;
-
-// 	str = "hello";
-
-// 	copy = ft_strdup(str);
-
-// 	if (!copy)
-// 		return (1);
-
-// 	printf("Original: %s\n", str);
-// 	printf("Copia: %s\n", copy);
-
-// 	free(copy);
-
-// 	return (0);
-// }

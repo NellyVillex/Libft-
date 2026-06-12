@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/26 11:19:37 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:12:50 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:37:56 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,17 +30,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		dst[i + j] = '\0';
 	return (i + ft_strlen(src));
 }
-
-// int	main(void)
-// {
-// 	char	dst[20] = "Hello ";
-// 	char	src[] = "World";
-// 	size_t	result;
-
-// 	result = ft_strlcat(dst, src, 20);
-
-// 	printf("Resultado: %s\n", dst);
-// 	printf("Tamanho retornado: %zu\n", result);
-
-// 	return (0);
-// }

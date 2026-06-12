@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/22 14:52:19 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:15 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:36:39 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,14 +24,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-// int	main(void)
-// {
-// 	char	str[20];
-
-// 	ft_memset(str, 'A', 5);
-// 	str[5] = '\0';
-
-// 	printf("%s\n", str);
-// 	return (0);
-// }

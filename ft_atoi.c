@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 17:14:08 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/28 12:09:30 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:32:36 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (result * sing);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	int		result;
-
-// 	str = "   -42";
-
-// 	result = ft_atoi(str);
-
-// 	printf("Resultado: %d\n", result);
-
-// 	return (0);
-// }

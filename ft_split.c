@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/01 11:18:30 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/06/01 14:59:12 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:37:15 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,22 +57,3 @@ char	**ft_split(char const *s, char c)
 	result[i] = NULL;
 	return (result);
 }
-
-// int	main(void)
-// {
-// 	char	**result;
-// 	int		i;
-
-// 	result = ft_split("ola,voce,tudo,bem", ',');
-// 	if (!result)
-// 		return (1);
-// 	i = 0;
-// 	while (result[i])
-// 	{
-// 		printf("result[%d] = %s\n", i, result[i]);
-// 		free(result[i]);
-// 		i++;
-// 	}
-// 	free(result);
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 11:55:45 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 14:57:34 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:35:22 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,16 +25,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	s1[] = "abc";
-// 	char	s2[] = "abd";
-// 	int		result;
-
-// 	result = ft_memcmp(s1, s2, 3);
-
-// 	printf("Resultado: %d\n", result);
-
-// 	return (0);
-// }

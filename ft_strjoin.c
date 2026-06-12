@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 16:12:07 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/29 17:20:18 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:37:48 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,24 +27,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	(void)ft_strlcat(result, s2, len1 + len2 + 1);
 	return (result);
 }
-
-// int	main(void)
-// {
-// 	char	*s1;
-// 	char	*s2;
-// 	char	*result;
-
-// 	s1 = "Hello ";
-// 	s2 = "World";
-
-// 	result = ft_strjoin(s1, s2);
-
-// 	if (!result)
-// 		return (1);
-
-// 	printf("Resultado: %s\n", result);
-
-// 	free(result);
-
-// 	return (0);
-// }

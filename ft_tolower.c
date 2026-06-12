@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/26 14:34:32 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:45:00 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:38:53 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-
-// int	main(void)
-// {
-// 	char	c;
-
-// 	c = 'B';
-
-// 	printf("Antes: %c\n", c);
-// 	printf("Depois: %c\n", ft_tolower(c));
-
-// 	return (0);
-// }

@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 11:40:55 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/25 17:53:57 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:36:45 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// int	main(void)
-// {
-// 	ft_putchar_fd('D', 1);
-// 	return (0);
-// }

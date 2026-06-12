@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/22 14:03:08 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:45 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:27 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isascii('D'));
-// 	printf("%d\n", ft_isascii(200));
-// }

@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/22 14:28:21 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/22 14:56:10 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:38 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isprint('D'));
-// 	printf("%d\n", ft_isprint('\n'));
-// }

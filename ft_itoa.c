@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/01 15:27:45 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/06/01 17:29:07 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:48 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,15 +53,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-
-// 	str = ft_itoa(-12345);
-// 	if (!str)
-// 		return (1);
-// 	printf("Resultado: %s\n", str);
-// 	free(str);
-// 	return (0);
-// }

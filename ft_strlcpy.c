@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/25 16:28:41 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:35:19 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:38:03 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,17 +28,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
-
-// int	main(void)
-// {
-// 	char	src[] = "abcdef";
-// 	char	dst[10];
-// 	size_t	result;
-
-// 	result = ft_strlcpy(dst, src, 4);
-
-// 	printf("Destino: %s\n", dst);
-// 	printf("Retorno: %zu\n", result);
-
-// 	return (0);
-// }

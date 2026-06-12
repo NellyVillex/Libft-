@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/03 12:08:40 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/06/03 12:23:14 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:36:54 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ void	ft_putendl_fd(char *s, int fd)
 	ft_putstr_fd(s, fd);
 	ft_putchar_fd('\n', fd);
 }
-
-// int	main(void)
-// {
-// 	ft_putendl_fd("Hello World", 1);
-// 	return (0);
-// }

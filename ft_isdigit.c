@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 18:11:30 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:39 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:33 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isdigit('D'));
-// 	printf("%d\n", ft_isdigit('7'));
-// }

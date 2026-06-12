@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 11:39:08 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:12:02 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:38:08 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i])
@@ -23,8 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_strlen("dani"));
-// }

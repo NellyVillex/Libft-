@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 14:28:00 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 16:57:59 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:47:38 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	size_t	j;
 
 	i = 0;
-	j = strlen(little);
+	j = ft_strlen(little);
 	if (!j)
 		return ((char *) big);
 	while (big[i] && i + j <= len)
@@ -29,22 +29,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	*big;
-// 	char	*little;
-// 	char	*result;
-
-// 	big = "Ola mundo";
-// 	little = "mun";
-
-// 	result = ft_strnstr(big, little, 9);
-
-// 	if (result)
-// 		printf("Encontrou: %s\n", result);
-// 	else
-// 		printf("Nao encontrou\n");
-
-// 	return (0);
-// }

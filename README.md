@@ -101,3 +101,4 @@ cc main.c libft.a
 - Libft Your very first own library - Document.
 - Unix Man page - A Unix man page is a technical document that describes the usage, options, and behavior of commands, functions, and system components in Unix-based operating systems.
 - https://publish.obsidian.md/henriquesilvadev/Libft/libft - The aim of this project is to help you create, in C, a library of common functions that you can reuse in your future projects.
+- AI Prompt used on ChatGPT - I need you to guide me to make the exercises I send you - I don't want you to: give me the code ready, skip concepts, focus only on the theoretical. I want you to: explain me what the function does, explain me concepts, guide me to build the function, explain me how to fix the code I sent you (just show me the correct line version after a mistake three times the same line, when I get stuck on a line or loop).

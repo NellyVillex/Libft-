@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/26 16:40:33 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:43:18 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:38:34 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,20 +23,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s + i);
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	*result;
-
-// 	str = "banana";
-
-// 	result = ft_strrchr(str, 'a');
-
-// 	if (result)
-// 		printf("Encontrou: %s\n", result);
-// 	else
-// 		printf("Nao encontrou\n");
-
-// 	return (0);
-// }

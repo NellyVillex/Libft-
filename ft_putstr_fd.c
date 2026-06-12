@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 11:41:12 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:06 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:39:50 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,12 +20,3 @@ void	ft_putstr_fd(char *s, int fd)
 		s++;
 	}
 }
-
-// int	main(void)
-// {
-// 	char	*s;
-
-// 	s = "325";
-// 	ft_putstr_fd(s, 1);
-// 	printf("\n%s\n", s);
-// }

@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 16:42:51 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:49 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:21 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isalpha('D'));
-// 	printf("%d\n", ft_isalpha('7'));
-// }

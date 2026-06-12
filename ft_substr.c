@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 11:16:19 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/29 16:11:29 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:38:47 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,22 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	result[i] = '\0';
 	return (result);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	*result;
-
-// 	str = "Hello World";
-
-// 	result = ft_substr(str, 6, 5);
-
-// 	if (!result)
-// 		return (1);
-
-// 	printf("Substring: %s\n", result);
-
-// 	free(result);
-
-// 	return (0);
-// }

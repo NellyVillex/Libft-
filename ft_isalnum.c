@@ -6,7 +6,7 @@
 /*   By: dnelly-b <dnelly-b@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 18:19:47 by dnelly-b          #+#    #+#             */
-/*   Updated: 2026/05/27 15:13:53 by dnelly-b         ###   ########.fr       */
+/*   Updated: 2026/06/12 10:33:12 by dnelly-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isalnum('D'));
-// 	printf("%d\n", ft_isalnum('@'));
-// }
